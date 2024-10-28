@@ -1,0 +1,537 @@
+.container {
+    max-width: 1169px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: Delius Unicase; 
+    font-weight: 400;
+    margin: 120px 0 80px;
+}
+
+/* Cities works */
+
+.cities-works {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+}
+
+.item-architectural-1,
+.item-architectural-2,
+.item-architectural-3,
+.item-architectural-4,
+.item-architectural-5,
+.item-architectural-6 {
+    position: relative;
+}
+
+.item-architectural-1 .item-architectural-subtitle,
+.item-architectural-3 .item-architectural-subtitle,
+.item-architectural-5 .item-architectural-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 5%;
+}
+
+.item-architectural-1 .item-architectural-subtitle-date,
+.item-architectural-3 .item-architectural-subtitle-date,
+.item-architectural-5 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 11%;
+}
+
+.item-architectural-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.item-architectural-2,
+.item-architectural-6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.item-architectural-2 .item-architectural-subtitle,
+.item-architectural-4 .item-architectural-subtitle,
+.item-architectural-6 .item-architectural-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 2.5%;
+}
+
+.item-architectural-2 .item-architectural-subtitle-date,
+.item-architectural-4 .item-architectural-subtitle-date,
+.item-architectural-6 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 4%;
+}
+
+.item-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/* END Cities works */
+
+/* Still Life Photography */
+
+.nature-works {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+}
+
+.item-nature-works-1,
+.item-nature-works-2,
+.item-nature-works-3,
+.item-nature-works-4,
+.item-nature-works-5,
+.item-nature-works-6 {
+    position: relative;
+}
+
+.item-nature-works-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.item-nature-works-2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+
+.item-nature-works-1 .item-architectural-subtitle,
+.item-nature-works-3 .item-architectural-subtitle,
+.item-nature-works-5 .item-architectural-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 5%;
+}
+
+.item-nature-works-1 .item-architectural-subtitle-date,
+.item-nature-works-3 .item-architectural-subtitle-date,
+.item-nature-works-5 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 11%;
+}
+
+
+.item-nature-works-2 .item-architectural-subtitle,
+.item-nature-works-4 .item-architectural-subtitle,
+.item-nature-works-6 .item-architectural-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 5%;
+}
+
+.item-nature-works-2 .item-architectural-subtitle-date,
+.item-nature-works-4 .item-architectural-subtitle-date,
+.item-nature-works-6 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 11%;
+}
+
+/* END Still Life Photography */
+
+
+/* People */
+
+.item-people-1-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-square-1.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-1-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-square-1.png);
+}
+
+.item-people-2-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-portrait-2.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 770px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-2-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-portrait-2.png);
+}
+
+.item-people-3-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-square-3.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-3-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-square-3.png);
+}
+
+.item-people-4-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-square-4.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-4-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-square-4.png);
+}
+
+.item-people-6-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-portrait-6.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 770px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-6-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-portrait-6.png);
+}
+
+.item-people-6-img {
+    position: relative;
+    
+}
+
+.item-people-1-img:hover .item-people-like,
+.item-people-2-img:hover .item-people-like,
+.item-people-3-img:hover .item-people-like,
+.item-people-4-img:hover .item-people-like,
+.item-people-6-img:hover .item-people-like,
+.item-people-7-img:hover .item-people-like,
+.item-people-8-img:hover .item-people-like,
+.item-people-9-img:hover .item-people-like,
+.item-people-10-img:hover .item-people-like,
+.item-people-11-img:hover .item-people-like,
+.item-people-1-img:hover .item-people-download,
+.item-people-2-img:hover .item-people-download,
+.item-people-3-img:hover .item-people-download,
+.item-people-4-img:hover .item-people-download,
+.item-people-6-img:hover .item-people-download,
+.item-people-7-img:hover .item-people-download,
+.item-people-8-img:hover .item-people-download,
+.item-people-9-img:hover .item-people-download,
+.item-people-10-img:hover .item-people-download,
+.item-people-11-img:hover .item-people-download {
+    opacity: 1;
+}
+
+.item-people-1-img:hover .item-people-like:hover,
+.item-people-2-img:hover .item-people-like:hover,
+.item-people-3-img:hover .item-people-like:hover,
+.item-people-4-img:hover .item-people-like:hover,
+.item-people-6-img:hover .item-people-like:hover,
+.item-people-7-img:hover .item-people-like:hover,
+.item-people-8-img:hover .item-people-like:hover,
+.item-people-9-img:hover .item-people-like:hover,
+.item-people-10-img:hover .item-people-like:hover,
+.item-people-11-img:hover .item-people-like:hover {
+    background-color: #E0E0E0;
+}
+
+.item-people-1-img:hover .item-people-download:hover,
+.item-people-2-img:hover .item-people-download:hover,
+.item-people-3-img:hover .item-people-download:hover,
+.item-people-4-img:hover .item-people-download:hover,
+.item-people-6-img:hover .item-people-download:hover,
+.item-people-7-img:hover .item-people-download:hover,
+.item-people-8-img:hover .item-people-download:hover,
+.item-people-9-img:hover .item-people-download:hover,
+.item-people-10-img:hover .item-people-download:hover,
+.item-people-11-img:hover .item-people-download:hover {
+    background-color: #E0E0E0;
+}
+
+.item-people-9-img .item-people-download,
+.item-people-10-img .item-people-download {
+    margin: 20px 0 0 710px;
+}
+
+.item-people-like {
+    position: absolute;
+    background-image: url(../images/heart.png);
+    background-color: rgba(224, 224, 224, 0.50);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 17px;
+    background-position: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 0 0 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.item-people-download {
+    position: absolute;
+    background-image: url(../images/download.png);
+    background-color: rgba(224, 224, 224, 0.50);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 17px;
+    background-position: center;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 20px 0 0 305px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.item-people-7-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-portrait-7.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 770px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-7-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-portrait-7.png);
+}
+
+
+.item-people-8-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-square-8.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-8-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-square-8.png);
+}
+
+
+.item-people-9-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-landscape-9.png);
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-9-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-landscape-9.png);
+}
+
+
+.item-people-10-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-landscape-10.png);
+    background-repeat: no-repeat;
+    width: 770px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-10-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-landscape-10.png);
+}
+
+
+
+.item-people-11-img {
+    background-image: linear-gradient(0deg, #241F24 0%, rgba(91, 91, 91, 0.45) 34%, rgba(187, 186, 192, 0.26) 62%), 
+    url(../images/pepole-item-square-11.png);
+    background-repeat: no-repeat;
+    width: 370px;
+    height: 370px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.item-people-11-img:hover {
+    background-image: linear-gradient(0deg, #241F24 1%, rgba(91, 91, 91, 0.26) 7%, rgba(187, 186, 192, 0) 12%),
+    none, url(../images/pepole-item-square-11.png);
+}
+
+.item-people-1,
+.item-people-2,
+.item-people-3,
+.item-people-4,
+.item-people-6,
+.item-people-7,
+.item-people-8,
+.item-people-9,
+.item-people-10,
+.item-people-11 {
+    position: relative;
+}
+
+.item-people-1 .item-architectural-subtitle,
+.item-people-3 .item-architectural-subtitle,
+.item-people-7 .item-architectural-subtitle,
+.item-people-9 .item-architectural-subtitle,
+.item-people-11 .item-architectural-subtitle
+ {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 5%;
+}
+
+.item-people-1 .item-architectural-subtitle-date,
+.item-people-3 .item-architectural-subtitle-date,
+.item-people-7 .item-architectural-subtitle-date,
+.item-people-9 .item-architectural-subtitle-date,
+.item-people-11 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 11%;
+}
+
+.item-people-2 .item-architectural-subtitle,
+.item-people-4 .item-architectural-subtitle,
+.item-people-6 .item-architectural-subtitle,
+.item-people-8 .item-architectural-subtitle,
+.item-people-10 .item-architectural-subtitle {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    bottom: 6.5%;
+    left: 5%;
+}
+
+.item-people-2 .item-architectural-subtitle-date,
+.item-people-4 .item-architectural-subtitle-date,
+.item-people-6 .item-architectural-subtitle-date,
+.item-people-8 .item-architectural-subtitle-date,
+.item-people-10 .item-architectural-subtitle-date {
+    position: absolute;
+    color: #E0E0E0; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 400;
+    bottom: 6.5%;
+    right: 11%;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+    margin: 0 0 120px 0;
+}
+
+.item-people-1 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item-people-2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.item-people-4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.item-people-6 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 3;
+}
+
+.item-people-7 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.item-people-9 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+}
+
+/* END People */
